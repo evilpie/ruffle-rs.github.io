@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://github.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://github.com/" rel="alternate" type="text/html" /><updated>2023-03-18T02:21:43+00:00</updated><id>https://github.com/feed.xml</id><title type="html">Ruffle</title><subtitle>Flash Player emulator written in the Rust programming language</subtitle><entry><title type="html">First post, progress report!</title><link href="https://github.com/blog/2023/03/12/progress-report.html" rel="alternate" type="text/html" title="First post, progress report!" /><published>2023-03-12T00:23:00+00:00</published><updated>2023-03-12T00:23:00+00:00</updated><id>https://github.com/blog/2023/03/12/progress-report</id><content type="html" xml:base="https://github.com/blog/2023/03/12/progress-report.html">&lt;p&gt;Get ready for the biggest Ruffle announcement yet! And the first one on the blog!&lt;/p&gt;
+
+&lt;h1 id=&quot;huge-improvements-to-ruffles-avm1-engine-accuracy&quot;&gt;Huge improvements to Ruffle’s AVM1 engine accuracy!&lt;/h1&gt;
+&lt;p&gt;Thanks to a massive code refactor by @CUB3D, dozens upon dozens of ActionScript 2 games have been fixed! Here are just a few of them:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chibi Knight: &lt;a href=&quot;https://www.newgrounds.com/portal/view/526470&quot;&gt;https://www.newgrounds.com/portal/view/526470&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Xeno Tactic 2: &lt;a href=&quot;https://www.newgrounds.com/portal/view/438241/format/flash?emulate=flash&quot;&gt;https://www.newgrounds.com/portal/view/438241/format/flash?emulate=flash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Trojan War: &lt;a href=&quot;https://www.newgrounds.com/portal/view/604949/format/flash?emulate=flash&quot;&gt;https://www.newgrounds.com/portal/view/604949/format/flash?emulate=flash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Frontline Defense: &lt;a href=&quot;https://www.kongregate.com/games/kazama_bee/frontline-defense-first-assault&quot;&gt;https://www.kongregate.com/games/kazama_bee/frontline-defense-first-assault&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Bubble Bobble: The Revival: &lt;a href=&quot;https://flasharch.com/en/archive/play/084db17094dc7452f01da0905d7eb516&quot;&gt;https://flasharch.com/en/archive/play/084db17094dc7452f01da0905d7eb516&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Cube Colossus: &lt;a href=&quot;https://www.newgrounds.com/portal/view/507205/format/flash?emulate=flash&quot;&gt;https://www.newgrounds.com/portal/view/507205/format/flash?emulate=flash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Chronotron: &lt;a href=&quot;https://www.kongregate.com/games/Scarybug/chronotron&quot;&gt;https://www.kongregate.com/games/Scarybug/chronotron&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Powerpuff Girls: Attack of the Puppybots: &lt;a href=&quot;https://flasharch.com/en/archive/play/b93354279e9788b849f83ef78f52cbbb&quot;&gt;https://flasharch.com/en/archive/play/b93354279e9788b849f83ef78f52cbbb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Extreme Pamplona: &lt;a href=&quot;https://flasharch.com/en/archive/play/e36aac73914ec8672218317e000615d7&quot;&gt;https://flasharch.com/en/archive/play/e36aac73914ec8672218317e000615d7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;incredible-progress-in-avm2-actionscript-3-support&quot;&gt;Incredible progress in AVM2 (ActionScript 3) support!&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Our website now has a page listing exactly what ActionScript 3 APIs we have implemented, making it easy to follow our progress. It will be frequently updated! &lt;a href=&quot;https://ruffle.rs/avm2.html&quot;&gt;https://ruffle.rs/avm2.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;XML support is rapidly improving! ActionScript 3 games tend to use a wide variety of XML methods. As Ruffle gains support for these methods, games are springing to life!&lt;/li&gt;
+  &lt;li&gt;Several problems that caused unresponsive buttons and menus have been fixed. Unclickable buttons in ActionScript 3 games are (mostly) a thing of the past!&lt;/li&gt;
+  &lt;li&gt;Other major refactors are in progress to improve Ruffle’s compatibility with ActionScript 3 frameworks like Haxe.&lt;/li&gt;
+  &lt;li&gt;@Aaron1011 is working on &lt;strong&gt;Stage3D support&lt;/strong&gt;! Thanks to his work, the gorgeous interstellar strategy game Solarmax 2 is now fully playable in Ruffle on the desktop player! Check out the video below.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;video muted=&quot;&quot; autoplay=&quot;&quot; controls=&quot;&quot;&gt;
+    &lt;source src=&quot;/assets/2023-03-12-progress-report/ruffle_solarmax2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;Many of the fan-favorite &lt;strong&gt;Flipline games are now playable&lt;/strong&gt;! Check them out:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Papa’s Burgeria: &lt;a href=&quot;https://www.kongregate.com/games/FliplineStudios/papas-burgeria&quot;&gt;https://www.kongregate.com/games/FliplineStudios/papas-burgeria&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Jacksmith: &lt;a href=&quot;https://www.kongregate.com/games/FliplineStudios/jacksmith&quot;&gt;https://www.kongregate.com/games/FliplineStudios/jacksmith&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Papa’s Cheeseria: &lt;a href=&quot;https://www.flipline.com/games/papascheeseria/index.html&quot;&gt;https://www.flipline.com/games/papascheeseria/index.html&lt;/a&gt; (requires the Ruffle Chrome extension)&lt;/li&gt;
+  &lt;li&gt;Papa’s Bakeria: &lt;a href=&quot;https://www.flipline.com/games/papasbakeria/index.html&quot;&gt;https://www.flipline.com/games/papasbakeria/index.html&lt;/a&gt; (requires the Ruffle Chrome extension)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;video muted=&quot;&quot; autoplay=&quot;&quot; controls=&quot;&quot;&gt;
+    &lt;source src=&quot;/assets/2023-03-12-progress-report/ruffle_burgeria.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;Here are just a few more of the many ActionScript 3 games that are playable today in Ruffle!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Canabalt: &lt;a href=&quot;https://www.newgrounds.com/portal/view/510303&quot;&gt;https://www.newgrounds.com/portal/view/510303&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Bloons Tower Defense 3: &lt;a href=&quot;https://www.newgrounds.com/portal/view/463445/format/flash?emulate=flash&quot;&gt;https://www.newgrounds.com/portal/view/463445/format/flash?emulate=flash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Diggy: &lt;a href=&quot;https://www.kongregate.com/games/Vogd/diggy&quot;&gt;https://www.kongregate.com/games/Vogd/diggy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Wooden Path 2: &lt;a href=&quot;https://www.kongregate.com/games/Remivision/wooden-path-2&quot;&gt;https://www.kongregate.com/games/Remivision/wooden-path-2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Fracuum: &lt;a href=&quot;https://www.newgrounds.com/portal/view/594354&quot;&gt;https://www.newgrounds.com/portal/view/594354&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Dino Run: Marathon of Doom: &lt;a href=&quot;https://www.newgrounds.com/portal/view/566176&quot;&gt;https://www.newgrounds.com/portal/view/566176&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;last-but-not-least-support-for-mobile-devices-is-improving-in-a-big-way&quot;&gt;Last but not least, support for &lt;strong&gt;mobile devices&lt;/strong&gt; is improving in a big way!&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Text input boxes&lt;/strong&gt; are finally supported on mobile devices! Tapping on a text box within Flash content now brings up the soft keyboard, so you can type into it without using a bluetooth keyboard or other workarounds.&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;context menu&lt;/strong&gt; finally works on iOS! It is activated by a long-press on the screen. To stop this behavior if needed, simply tap the “Hide this menu” option.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;video muted=&quot;&quot; autoplay=&quot;&quot; controls=&quot;&quot;&gt;
+    &lt;source src=&quot;/assets/2023-03-12-progress-report/Ruffle_Kongregate_Pizzeria_iPhone.mov&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;&lt;strong&gt;We have even more improvements coming very soon!&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The latest releases now have &lt;strong&gt;dynamic audio buffering&lt;/strong&gt;, making audio playback in the most demanding content much smoother! (Thanks to @szőlő)&lt;/li&gt;
+  &lt;li&gt;A bug that causes some AVM2 games’ intro sounds to repeat over and over will soon be fixed. (Thanks to @Aaron1011)&lt;/li&gt;
+  &lt;li&gt;@Dinnerbone is working on improving drawing accuracy for thin/hairline strokes and scaled objects. You can follow his progress here:
+&lt;a href=&quot;https://github.com/ruffle-rs/ruffle/pull/9981&quot;&gt;https://github.com/ruffle-rs/ruffle/pull/9981&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Get ready for the biggest Ruffle announcement yet! And the first one on the blog! Huge improvements to Ruffle’s AVM1 engine accuracy! Thanks to a massive code refactor by @CUB3D, dozens upon dozens of ActionScript 2 games have been fixed! Here are just a few of them: Chibi Knight: https://www.newgrounds.com/portal/view/526470 Xeno Tactic 2: https://www.newgrounds.com/portal/view/438241/format/flash?emulate=flash Trojan War: https://www.newgrounds.com/portal/view/604949/format/flash?emulate=flash Frontline Defense: https://www.kongregate.com/games/kazama_bee/frontline-defense-first-assault Bubble Bobble: The Revival: https://flasharch.com/en/archive/play/084db17094dc7452f01da0905d7eb516 Cube Colossus: https://www.newgrounds.com/portal/view/507205/format/flash?emulate=flash Chronotron: https://www.kongregate.com/games/Scarybug/chronotron The Powerpuff Girls: Attack of the Puppybots: https://flasharch.com/en/archive/play/b93354279e9788b849f83ef78f52cbbb Extreme Pamplona: https://flasharch.com/en/archive/play/e36aac73914ec8672218317e000615d7 Incredible progress in AVM2 (ActionScript 3) support! Our website now has a page listing exactly what ActionScript 3 APIs we have implemented, making it easy to follow our progress. It will be frequently updated! https://ruffle.rs/avm2.html XML support is rapidly improving! ActionScript 3 games tend to use a wide variety of XML methods. As Ruffle gains support for these methods, games are springing to life! Several problems that caused unresponsive buttons and menus have been fixed. Unclickable buttons in ActionScript 3 games are (mostly) a thing of the past! Other major refactors are in progress to improve Ruffle’s compatibility with ActionScript 3 frameworks like Haxe. @Aaron1011 is working on Stage3D support! Thanks to his work, the gorgeous interstellar strategy game Solarmax 2 is now fully playable in Ruffle on the desktop player! Check out the video below. Many of the fan-favorite Flipline games are now playable! Check them out: Papa’s Burgeria: https://www.kongregate.com/games/FliplineStudios/papas-burgeria Jacksmith: https://www.kongregate.com/games/FliplineStudios/jacksmith Papa’s Cheeseria: https://www.flipline.com/games/papascheeseria/index.html (requires the Ruffle Chrome extension) Papa’s Bakeria: https://www.flipline.com/games/papasbakeria/index.html (requires the Ruffle Chrome extension) Here are just a few more of the many ActionScript 3 games that are playable today in Ruffle! Canabalt: https://www.newgrounds.com/portal/view/510303 Bloons Tower Defense 3: https://www.newgrounds.com/portal/view/463445/format/flash?emulate=flash Diggy: https://www.kongregate.com/games/Vogd/diggy Wooden Path 2: https://www.kongregate.com/games/Remivision/wooden-path-2 Fracuum: https://www.newgrounds.com/portal/view/594354 Dino Run: Marathon of Doom: https://www.newgrounds.com/portal/view/566176 Last but not least, support for mobile devices is improving in a big way! Text input boxes are finally supported on mobile devices! Tapping on a text box within Flash content now brings up the soft keyboard, so you can type into it without using a bluetooth keyboard or other workarounds. The context menu finally works on iOS! It is activated by a long-press on the screen. To stop this behavior if needed, simply tap the “Hide this menu” option. We have even more improvements coming very soon! The latest releases now have dynamic audio buffering, making audio playback in the most demanding content much smoother! (Thanks to @szőlő) A bug that causes some AVM2 games’ intro sounds to repeat over and over will soon be fixed. (Thanks to @Aaron1011) @Dinnerbone is working on improving drawing accuracy for thin/hairline strokes and scaled objects. You can follow his progress here: https://github.com/ruffle-rs/ruffle/pull/9981</summary></entry></feed>
